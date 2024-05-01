@@ -256,3 +256,7 @@ curl -X POST http://localhost:8080/api/purchase_orders/1/acknowledge \
 ### Swagger UI
 
 Visit http://localhost:8080/swagger to get the complete documentation of the UI and if you want you can try the api endpoints from there as well.
+
+### Run the test Suit
+
+`python manage.py test`
