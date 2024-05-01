@@ -11,7 +11,9 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them:
 
 Python 3.8+
+
 Django 3.2+
+
 Django REST Framework
 
 `git clone https://github.com/parthsingh-pcd/vendor-management-system.git`
