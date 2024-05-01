@@ -14,8 +14,9 @@ Python 3.8+
 Django 3.2+
 Django REST Framework
 
-git clone https://github.com/parthsingh-pcd/vendor-management-system.git
-cd vendor-management-system
+`git clone https://github.com/parthsingh-pcd/vendor-management-system.git`
+
+`cd vendor-management-system`
 
 
 ## Install virtualenv (Optional)
