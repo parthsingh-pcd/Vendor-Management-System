@@ -206,7 +206,7 @@ Here is a brief overview of the API endpoints available:
         }
       ],
       "quantity": 20,
-      "status": "completed"
+      "status": "PENDING"
     }
     ```
   - **Example Request**:
@@ -218,7 +218,7 @@ Here is a brief overview of the API endpoints available:
                "delivery_date": "2024-05-20T15:00:00Z",
                "items": [{"item": "Item 1", "quantity": 20, "unit_price": 100}],
                "quantity": 20,
-               "status": "completed"
+               "status": "PENDING"
              }'
     ```
 
@@ -231,7 +231,7 @@ Here is a brief overview of the API endpoints available:
     curl -X DELETE http://localhost:8080/api/purchase_orders/123/
     ```
 
-##### Acknowledging a Purchase Order
+### Acknowledging a Purchase Order
 
 To acknowledge a purchase order, send a POST request to `/api/purchase_orders/{po_id}/acknowledge` with optional JSON payload containing the quality rating. Here is an example request:
 
